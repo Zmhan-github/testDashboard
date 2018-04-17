@@ -5,19 +5,21 @@ import './index.css';
 export default class HomePage extends Component {
   render() {
     return (
-      <div className="flex-container">
-      <div className="flex-element">1</div>
-      <div className="flex-element">
-        <div className="flex-element-ch">1</div>
-        <div className="flex-element-ch">2</div>
-        <div className="flex-element-ch">3</div> 
-        <div className="flex-element-ch">4</div>
-      </div>
-      <div className="flex-element">
-        <div className="flex-element-ch">1</div>
-        <div className="flex-element-ch">2</div>
-      </div>      
-    </div> 
+      <div className="container">
+        <div className="item">
+          <div className="item-element"> Home Page </div>
+        </div>
+        <div className="item">
+          <div className="item-element">1</div>
+          <div className="item-element">2</div>
+          <div className="item-element">3</div> 
+          <div className="item-element">4</div>
+        </div>
+        <div className="item">
+          <div className="item-element">1</div>
+          <div className="item-element">2</div>
+        </div>      
+      </div> 
     );
   }
 };
