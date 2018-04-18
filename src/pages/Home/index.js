@@ -7,7 +7,9 @@ export default class HomePage extends Component {
     return (
       <div className="container">
         <div className="item">
-          <div className="item-element"> Home Page </div>
+          <div className="item-element">
+            Home Page
+           </div>
         </div>
         <div className="item">
           <div className="item-element">1</div>
