@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;    
+   
+    padding: 1.6rem;
+    height: 100%;      
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 1.6rem;  
+}
+
+.item-element {
+    flex-grow: 1;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 1.6rem; 
+    text-transform: uppercase;   
+    color: #fff;
+    background-color: #f1425d;   
+}
+
+.item-element:not(:last-child) {
+    margin-right: 1.6rem;
+}
